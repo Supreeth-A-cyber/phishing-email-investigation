@@ -47,6 +47,7 @@ The available information does not establish malicious intent, credential theft,
 
 - [Case Report](case-report.md) — scenario, observations, initial assessment, and SOC verdict.
 - [Indicator Analysis](indicator-analysis.md) — indicator review, evidence limitations, and recommended defensive checks.
+- [SOC Triage Decision](triage-decision.md) — triage observations, disposition criteria, next investigative steps, and evidence-based reasoning.
 
 ## 🔒 Safety and Limitations
 
