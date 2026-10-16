@@ -1,4 +1,4 @@
-# Phishing Email Investigation — Case 001
+ # Phishing Email Investigation — Case 001
 
 ## 1. Case Overview
 
@@ -53,3 +53,23 @@ The email has indicators consistent with a possible phishing attempt. These indi
 **Preliminary result:** Suspicious — further investigation required.
 
 No compromise is confirmed in this fictional scenario.
+
+## 8. SOC Analyst Verdict
+
+**Disposition:** Suspicious — requires further investigation.
+
+**Evidence supporting review:**
+- Urgent language requesting account verification.
+- Sender and reply-to addresses differ.
+- The message directs the recipient to a verification link.
+
+**Evidence still required:**
+- Email authentication results (SPF, DKIM, and DMARC).
+- Verified sender identity and destination-domain details.
+- Mail gateway, URL-click, and identity logs, if available.
+
+**Confirmed impact:** Unknown.
+
+**Recommended action:** Submit the message for authorized security review. If it is confirmed malicious, follow the organization's phishing-response procedure and assess whether containment or account-protection actions are needed.
+
+**Confidence:** Preliminary. This assessment is based on a fictional scenario, not a live email investigation.
